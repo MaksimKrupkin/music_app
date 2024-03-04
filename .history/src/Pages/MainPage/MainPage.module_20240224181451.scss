@@ -1,0 +1,13 @@
+.app_wrapper {
+  background-color: #10101e;
+  height: fit-content;
+}
+.wrapper {
+  overflow-y: auto; /* Включаем скролл только по вертикали */
+  box-sizing: border-box;
+  width: 100vw;
+  min-height: 100vh; /* Минимальная высота равна высоте видимой области окна браузера */
+  background-color: #10101e;
+  color: white;
+  padding-bottom: 20px; /* Добавляем небольшой отступ снизу, чтобы не перекрывался контент под футером */
+}

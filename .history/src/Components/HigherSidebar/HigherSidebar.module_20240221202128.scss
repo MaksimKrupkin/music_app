@@ -1,0 +1,38 @@
+.higherSidebar {
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+  width: 21.3%;
+  height: 26%;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #3f445f;
+  padding-top: 16px;
+  padding-left: 18.6px;
+}
+
+.logo_wrapper {
+  box-sizing: border-box;
+  margin-left: -2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5px;
+  align-items: center;
+  width: 35%;
+}
+.logo {
+  width: 18.63px;
+  height: 18.63px;
+}
+.logo_text {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

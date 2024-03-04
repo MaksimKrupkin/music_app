@@ -1,0 +1,25 @@
+.card {
+  box-sizing: border-box;
+  width: 139px;
+  padding: 10px;
+
+  height: 163px;
+  background-color: #555c82;
+  border-radius: 10px;
+
+  .image {
+    width: 119px;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+  .title {
+    font-size: 10px;
+    font-weight: 300;
+  }
+  .author {
+    font-size: 10px;
+    font-weight: 300;
+  }
+}

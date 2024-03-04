@@ -1,0 +1,19 @@
+.header {
+  width: 100%;
+  height: 8%;
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+  background-color: #191941;
+}
+.arrows {
+  width: 250px;
+}
+.wrapper {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #3f445f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

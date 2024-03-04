@@ -1,0 +1,31 @@
+.main {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  background-color: #3f445f;
+  width: 76%;
+  height: 100%;
+  overflow-y: auto;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  .artist {
+    width: 95%;
+    height: 150px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+    background-image: linear-gradient(
+      #3b3576 2.27%,
+      #28224c 40.19%,
+      #16142a 69.95%,
+      #202040 98.27%
+    );
+  }
+}
+.main::-webkit-scrollbar {
+  display: none; /* Скрываем стандартную полосу прокрутки в браузерах WebKit */
+}

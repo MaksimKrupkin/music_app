@@ -1,0 +1,13 @@
+.app_wrapper {
+  background-color: #10101e;
+  height: 100vh; /* Растягиваем контейнер на всю высоту окна */
+  overflow-y: auto;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}

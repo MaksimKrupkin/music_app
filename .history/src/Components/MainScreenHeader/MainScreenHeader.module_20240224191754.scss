@@ -1,0 +1,105 @@
+.header {
+  position: sticky;
+  top: 0; /* Отступ сверху, где будет зафиксирован элемент */
+  z-index: 1000; /* Опционально: устанавливаем z-index для управления слоем */
+  box-sizing: border-box;
+  width: 100%;
+  height: 8%;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  background-color: #191941;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.arrows {
+  width: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .wrapper {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3f445f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in;
+  }
+  .wrapper:hover {
+    background-color: #4a4f6c;
+  }
+  .arrow {
+    width: 16px;
+  }
+}
+
+.navigation {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .link {
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+  }
+  .link:hover {
+    color: rgb(224, 217, 217);
+  }
+}
+
+.buttons {
+  width: 300px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: white;
+  .button_wrapper:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3f445f;
+    height: 30px;
+    width: 180px;
+    border-radius: 12px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .button_wrapper:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3f445f;
+    height: 30px;
+    width: 80px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  .text {
+    color: white;
+  }
+}
+.link_wrapper {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #3f445f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 15px;
+}

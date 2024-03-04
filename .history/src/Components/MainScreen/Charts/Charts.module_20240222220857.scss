@@ -1,0 +1,20 @@
+.charts {
+  position: inherit;
+  box-sizing: border-box;
+  top: 62px;
+  right: 20px;
+  width: 285px;
+  height: 270px;
+  background-color: #555c82;
+  border-radius: 10px;
+  padding: 10px;
+  .title {
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    margin-right: 60px;
+  }
+  .link {
+    display: inline-block;
+  }
+}

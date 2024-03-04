@@ -1,0 +1,145 @@
+.main {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  background-color: #3f445f;
+  width: 76%;
+  height: 100%;
+  overflow-y: auto;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  .artist {
+    position: absolute;
+
+    width: 97.5%;
+    height: 150px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(
+      to top,
+      #3b3576 2.27%,
+      #28224c 40.19%,
+      #16142a 69.95%,
+      #202040 98.27%
+    );
+    position: relative;
+    .img {
+      left: 0;
+      width: 150px;
+      height: 150px;
+      border-radius: 10px;
+    }
+    .left_part {
+      position: absolute;
+      left: 165px;
+      top: 20px;
+      .genre {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        margin-bottom: 10px;
+        .text {
+          font-size: 12px;
+        }
+        .star {
+          width: 15px;
+        }
+      }
+      .artist_name {
+        font-size: 26px;
+        font-weight: 600;
+        word-spacing: 3px;
+      }
+      .buttons {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        margin-top: 20px;
+        .button1_wrapper {
+          width: 175px;
+          height: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid rgba(125, 134, 182, 1);
+          border-radius: 20px;
+          .text {
+            font-size: 12px;
+          }
+        }
+        .button2_wrapper {
+          width: 100px;
+          height: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid rgba(125, 134, 182, 1);
+          border-radius: 20px;
+          .text {
+            font-size: 12px;
+          }
+        }
+        .button3_wrapper {
+          width: 30px;
+          height: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid rgba(125, 134, 182, 1);
+          border-radius: 50%;
+          .logout_img {
+            width: 15px;
+          }
+        }
+      }
+    }
+    .right {
+      position: absolute;
+      right: 15px;
+      bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      .network_wrapper {
+        width: 30px;
+        height: 30px;
+        border: 1px solid rgba(125, 134, 182, 1);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .network_img {
+          width: 15px;
+        }
+        .network_img:nth-child(2) {
+          width: 10px;
+        }
+      }
+    }
+  }
+  .buttons {
+    width: 97.5%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    .button_wrapper {
+      width: 30%;
+      height: 70px;
+      box-sizing: border-box;
+      border-radius: 10px;
+      border-width: 5px; /* Толщина границы */
+      border-height: 1px;
+      border-style: dotted; /* Стиль границы - точки */
+      border-color: white; /* Цвет границы */
+    }
+  }
+}
+.main::-webkit-scrollbar {
+  display: none; /* Скрываем стандартную полосу прокрутки в браузерах WebKit */
+}

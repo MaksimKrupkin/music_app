@@ -1,0 +1,116 @@
+.main {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  background-color: #3f445f;
+  width: 76%;
+  height: 97%;
+  border-radius: 10px;
+}
+.left_wrapper {
+  box-sizing: border-box;
+  width: 65%;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.top {
+  position: relative;
+  height: 26vh;
+  .cover {
+    width: 125px;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .type {
+    position: absolute;
+    left: 140px;
+    top: 0;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+  .info {
+    position: absolute;
+    left: 140px;
+    top: 15px;
+    font-size: 30px;
+    font-weight: 500;
+    word-spacing: 5px;
+  }
+  .fits {
+    position: absolute;
+    left: 140px;
+    top: 57px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    .fit_author {
+      font-size: 11px;
+      font-weight: 300;
+    }
+  }
+  .buttons {
+    position: absolute;
+    left: 140px;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    .play_image {
+      width: 33px;
+      cursor: pointer;
+    }
+    .toFavorite_wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 150px;
+      height: 25px;
+      border: 1px solid #7d86b6;
+      border-radius: 15px;
+      cursor: pointer;
+      .toFavorite {
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+    .elseImg {
+      width: 26px;
+      cursor: pointer;
+    }
+  }
+}
+.trackList_wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+.track_wrapper {
+  width: 100%;
+  height: 40px;
+  border: 1.5px solid #7d86b6;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  .number {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+    font-weight: 300;
+  }
+  .title {
+    font-size: 10px;
+  }
+  .author {
+    font-size: 10px;
+  }
+  .forAdults_image {
+    width: 20px;
+  }
+}

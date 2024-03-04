@@ -1,0 +1,88 @@
+.wrapper {
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 10%;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(16px);
+
+  display: flex;
+  align-items: center;
+  .left_wrapper {
+    display: flex;
+    align-items: center;
+    width: 33%;
+    gap: 10px;
+    .image {
+      width: 35px;
+      height: 35px;
+
+      border-radius: 1px;
+    }
+    .info {
+      font-size: 11px;
+      .title {
+        font-weight: 500;
+      }
+      .author {
+        font-weight: 300;
+      }
+    }
+    .like {
+      width: 20px;
+      cursor: pointer;
+    }
+  }
+  .center_wrapper {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .top {
+      margin-top: 5px;
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      .image {
+        width: 15px;
+        cursor: pointer;
+      }
+      .image:nth-child(3) {
+        width: 25px;
+      }
+    }
+    .bottom {
+      margin-top: 4px;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      .trackLine {
+        width: 300px;
+        cursor: pointer;
+      }
+      .time {
+        font-size: 10px;
+      }
+    }
+  }
+  .right_wrapper {
+    box-sizing: border-box;
+    width: 32.5%;
+    display: flex;
+
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    .image {
+      width: 15px;
+      cursor: pointer;
+    }
+    .volumeBar {
+      width: 40px;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.main {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  background-color: #3f445f;
+  width: 76%;
+  height: 97%;
+  border-radius: 10px;
+}
+.left_wrapper {
+  box-sizing: border-box;
+  width: 60%;
+}
+.top {
+  height: 30vh;
+  .cover {
+    width: 120px;
+  }
+}

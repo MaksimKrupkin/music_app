@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-family: 'Roboto', sans-serif;
+}
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+#root {
+  overflow-y: auto;
+}

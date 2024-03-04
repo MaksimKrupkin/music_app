@@ -1,0 +1,11 @@
+.app_wrapper {
+  background-color: #10101e;
+  height: fit-content;
+}
+.wrapper {
+  box-sizing: border-box;
+  width: 100vw;
+  min-height: 100vh; /* Минимальная высота равна высоте видимой области окна браузера */
+  background-color: #10101e;
+  color: white;
+}

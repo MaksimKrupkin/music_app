@@ -1,0 +1,9 @@
+.charts {
+  position: inherit;
+  top: 62px;
+  right: 20px;
+  width: 285px;
+  height: 270px;
+  background-color: #555c82;
+  border-radius: 10px;
+}

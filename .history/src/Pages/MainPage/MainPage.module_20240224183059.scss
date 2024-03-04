@@ -1,0 +1,16 @@
+.app_wrapper {
+  background-color: #10101e;
+  height: 100vh; /* Растягиваем контейнер на всю высоту окна */
+  overflow-y: auto; /* Включаем вертикальный скролл при необходимости */
+}
+
+.wrapper {
+  box-sizing: border-box;
+  width: 78%; /* Ширина вашего контента */
+  min-height: 100vh; /* Минимальная высота равна высоте видимой области окна браузера */
+  background-color: #3f445f; /* Цвет фона вашего контента */
+  color: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px; /* Добавьте отступы, если нужно */
+}

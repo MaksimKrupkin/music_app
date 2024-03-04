@@ -1,0 +1,36 @@
+.main {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  background-color: #3f445f;
+  width: 76%;
+  height: 97%;
+  border-radius: 10px;
+}
+.blocks {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 590px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.block {
+  width: 290px;
+  height: 145px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+.charts {
+  position: inherit;
+  top: 62px;
+  right: 20px;
+  width: 285px;
+  height: 300px;
+  background-color: #555c82;
+  border-radius: 10px;
+}

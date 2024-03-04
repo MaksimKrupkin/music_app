@@ -1,0 +1,21 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden; /* Отключаем скролл у корневого элемента и body */
+}
+
+body {
+  overflow-y: auto; /* Включаем скролл только по вертикали */
+}
+
+.wrapper {
+  box-sizing: border-box;
+  width: 100vw;
+  min-height: 100vh; /* Минимальная высота равна высоте видимой области окна браузера */
+  background-color: #10101e;
+  color: white;
+  padding-bottom: 20px; /* Добавляем небольшой отступ снизу, чтобы не перекрывался контент под футером */
+}

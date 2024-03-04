@@ -1,0 +1,122 @@
+.wrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background-color: #10101e;
+  padding: 10px;
+  .header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #191941;
+    .logo {
+      width: 120px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 17px;
+      cursor: pointer;
+      .image {
+        width: 20px;
+        height: 20px;
+      }
+      .text {
+        color: white;
+      }
+    }
+  }
+  .window_wrapper {
+    width: 65%;
+    height: 100vh;
+    margin-top: -20px;
+    .subscribe_wrapper {
+      width: 100%;
+      height: 150px;
+      background-color: #7d86b6;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+    }
+    .left {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .text {
+      margin-top: 0px;
+      width: 300px;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 500;
+      margin-left: 50px;
+      line-height: 16px;
+    }
+    .button_wrapper {
+      margin-top: 10px;
+      margin-left: 50px;
+      background-color: #3f445f;
+      width: 110px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 17px;
+      cursor: pointer;
+      .button {
+        font-size: 13px;
+      }
+    }
+    .right {
+      width: 35%;
+      .prime {
+        width: 230px;
+        margin-left: 60px;
+        margin-top: 4px;
+      }
+    }
+  }
+  .second_level {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .settings_wrapper {
+    margin-top: 15px;
+    background-color: #7d86b6;
+    width: 60%;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title {
+      margin-top: 20px;
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+    .list_wrapper {
+      width: 94%;
+      background-color: #3f445f;
+      height: 215px;
+      border-radius: 10px;
+    }
+  }
+  .profile_wrapper {
+    margin-top: 15px;
+
+    width: 38%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #7d86b6;
+  }
+}

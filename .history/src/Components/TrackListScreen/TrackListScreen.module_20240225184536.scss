@@ -1,0 +1,38 @@
+.main {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  background-color: #3f445f;
+  width: 76%;
+  height: 97%;
+  border-radius: 10px;
+}
+.left_wrapper {
+  box-sizing: border-box;
+  width: 60%;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.top {
+  position: relative;
+  height: 30vh;
+  .cover {
+    width: 120px;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .type {
+    position: absolute;
+    left: 140px;
+    top: 0;
+  }
+  .info {
+    position: absolute;
+    left: 140px;
+    top: 30px;
+  }
+}

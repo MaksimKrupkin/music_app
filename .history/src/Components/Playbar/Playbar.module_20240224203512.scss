@@ -1,0 +1,25 @@
+.wrapper {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 9%;
+  background-color: black;
+
+  display: flex;
+  align-items: center;
+  .left_wrapper {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    .image {
+      width: 35px;
+      height: 35px;
+      margin-right: 10px;
+    }
+    .info {
+      font-size: 10px;
+    }
+  }
+}

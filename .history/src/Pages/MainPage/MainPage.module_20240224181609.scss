@@ -1,0 +1,15 @@
+.app_wrapper {
+  background-color: #10101e;
+  height: fit-content;
+}
+.wrapper {
+  width: 78%;
+  height: fit-content;
+  border-radius: 10px;
+  background: #3f445f;
+  margin: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box; /* Добавляем небольшой отступ снизу, чтобы не перекрывался контент под футером */
+}

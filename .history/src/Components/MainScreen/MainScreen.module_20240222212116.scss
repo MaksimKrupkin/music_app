@@ -1,0 +1,26 @@
+.main {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  background-color: #3f445f;
+  width: 76%;
+  height: 97%;
+  border-radius: 10px;
+}
+.blocks {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 510px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.block {
+  width: 250px;
+  height: 125px;
+  background-color: gray;
+}
