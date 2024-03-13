@@ -1,0 +1,34 @@
+.step_wrapper {
+  box-sizing: border-box;
+  width: 100%;
+  height: 73%;
+  border-radius: 10px;
+  background-color: rgba(125, 134, 182, 1);
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  .counter {
+    margin-top: 5px;
+    width: 45%;
+  }
+  .title{
+    width: 45%;
+    font-size: 12px;
+    text-align: center;
+  }
+
+ 
+      .button {
+      margin-top: 10px;
+      width: 110px;
+      height: 28px;
+      border-radius: 12px;
+      border: 1px solid rgba(63, 68, 95, 1);
+      background-color: transparent;
+      color: white;
+      margin-left: 75px;
+      cursor: pointer;
+    }
+

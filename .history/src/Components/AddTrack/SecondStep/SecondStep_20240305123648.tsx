@@ -1,0 +1,24 @@
+import React from 'react';
+import styles from './SecondStep.module.scss';
+import counter2 from '../../../assets/img/counter2.svg';
+
+export default function SecondStep() {
+  return (
+    <div className={styles.step_wrapper}>
+      <img src={counter2} className={styles.counter} alt="" />
+      <form className={styles.form}>
+        <label className={styles.label} htmlFor="">
+          Введите название*
+        </label>
+        <input placeholder="track_name" type="file" className={styles.input} />
+        <label className={styles.label} htmlFor="">
+          Введите музыкальный лейбл*
+        </label>
+        <input placeholder="label_name" type="text" className={styles.input} />
+
+        <input placeholder="features_name" type="text" className={styles.input} />
+        <button className={styles.button}>Продолжить</button>
+      </form>
+    </div>
+  );
+}
